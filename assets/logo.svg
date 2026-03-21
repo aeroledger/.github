@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!--
+    AeroLedger Mark
+
+    Metaphor: A paper airplane above ledger lines.
+    - Paper airplane = "Aero" (flight, movement, trajectory)
+    - Horizontal lines = "Ledger" (accounts, records, rows)
+
+    Style: Geometric, minimal, GNOME HIG-inspired.
+    - Built from basic polygons only
+    - Top wing surface lighter, bottom fold darker (front profile = depth)
+    - Three ledger rules aligned to baseline
+    - Scales cleanly from 128px down to 32px
+    - Pure black & white with one gray tone for depth
+  -->
+
+  <!-- === PAPER AIRPLANE === -->
+  <!-- Dart shape pointing upper-right, two triangular wing surfaces
+       sharing a fold line. Top wing catches light; bottom wing is
+       the "front profile" per GNOME depth convention. -->
+
+  <!-- Top wing (lighter surface — catches overhead light) -->
+  <polygon points="108,24 22,58 44,72" fill="#333"/>
+
+  <!-- Bottom wing / front profile (darker — creates depth) -->
+  <polygon points="108,24 44,72 30,88" fill="#111"/>
+
+  <!-- === LEDGER LINES === -->
+  <!-- Three evenly-spaced horizontal rules. Simple rectangles
+       with rounded ends for a slightly softer feel at large sizes. -->
+  <rect x="14" y="96"  width="100" height="2" rx="1" fill="#222"/>
+  <rect x="14" y="106" width="100" height="2" rx="1" fill="#222"/>
+  <rect x="14" y="116" width="100" height="2" rx="1" fill="#222"/>
+</svg>
