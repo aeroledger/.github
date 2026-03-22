@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aeroledger/.github/main/assets/logo.svg" alt="AeroLedger" width="200" />
+  <img src="https://raw.githubusercontent.com/aeroledger/assets/main/branding/logo_no-bg/2.png" alt="AeroLedger" width="220" />
 </p>
 
 <h3 align="center">Settlement infrastructure for aviation</h3>
